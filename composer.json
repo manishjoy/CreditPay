@@ -1,0 +1,22 @@
+{
+    "name": "manishjoy/module-creditpay",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "manishjoy.mj@gmail.com",
+            "name": "Manish Joy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\CreditPay\\": ""
+        }
+    }
+}
